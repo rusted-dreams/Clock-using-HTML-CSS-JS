@@ -1,0 +1,48 @@
+#clockFace {
+    position: relative;
+    height: 45vw;
+    width: 45vw;
+    background-image: url(/assets/clock-face.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: auto;
+    margin-top:35px;
+    
+}
+
+#hourHand, #minuteHand, #secondHand {
+    position: absolute;
+    border-radius: 10px;
+    transform-origin: bottom;
+
+}
+
+#hourHand {
+    background-color: black;
+    height: 24%;
+    width: 2.8%;
+    left: 49.08%;
+    top: 26.7%;
+    opacity: 0.8;
+    
+    
+}
+
+#minuteHand {
+    background-color: black;
+    height: 32%;
+    width: 1.8%;
+    left: 49.6%;
+    top: 18.4%;
+    opacity: 0.8;
+    
+}
+
+#secondHand {
+    background-color: black;
+    height: 37%;
+    width: 1%;
+    left: 50%;
+    top: 13.39%;
+    opacity: 0.8;
+}
